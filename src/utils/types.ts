@@ -20,9 +20,9 @@ export type Cocktail = {
   variaciones_recomendadas: string[];
 };
 
-type ApiError = {
+export type ApiError = {
   Response: "False";
   Error: string;
 };
 
-type ApiResponse = Cocktail[] | ApiError;
+export type ApiResponse = Cocktail[] | ApiError;

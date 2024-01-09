@@ -1,8 +1,11 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import cocktails from "../utils/cocktails.json";
 import Card from "../components/Card.astro";
 import Search from "../components/Search.jsx";
+import { useSearch } from "../hooks/useSearch";
+import {useCocktails} from '../hooks/useCocktails'
+import cocktails from '../utils/cocktails.json'
+
 ---
 
 <Layout title="Cococktail">

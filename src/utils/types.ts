@@ -8,7 +8,12 @@ export type Ingrediente = {
 export type Cocktail = {
   nombre: string;
   categoria: string;
-  ingredientes: Ingrediente[];
+  ingredientes: {
+    nombre: string;
+    cantidad: string;
+    tipo?: string;
+    fresco?: boolean;
+  }[];
   preparacion: string;
   imagen: string;
   historia: string;

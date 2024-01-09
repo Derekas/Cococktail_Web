@@ -1,0 +1,38 @@
+---
+import Layout from "../layouts/Layout.astro";
+import cocktails from "../utils/cocktails.json";
+import Card from "../components/Card.astro";
+import Search from "../components/Search.jsx";
+---
+
+<Layout title="Cococktail">
+  <main class="flex flex-col w-full h-full">
+    <Search client:load/>
+
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-20 mt-8"
+    >
+      {
+        cocktails.map((cocktail) => (
+          <Card
+            nombre={cocktail.nombre}
+            imagen={cocktail.imagen}
+            dificultad={cocktail.dificultad_preparacion}
+            historia={cocktail.historia}
+          />
+        ))
+      }
+    </div>
+  </main>
+
+  <style>
+    main {
+      padding: 1rem;
+      max-width: calc(100% - 2rem);
+      color: white;
+      line-height: 1.6;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</Layout>

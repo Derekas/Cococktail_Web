@@ -1,0 +1,477 @@
+[
+    {
+      "nombre": "Margarita",
+      "categoria": "Clásico",
+      "ingredientes": [
+        {
+          "nombre": "Tequila",
+          "cantidad": "2 oz",
+          "tipo": "Blanco"
+        },
+        {
+          "nombre": "Triple sec",
+          "cantidad": "1 oz",
+          "tipo": "Licor de naranja"
+        },
+        {
+          "nombre": "Jugo de limón",
+          "cantidad": "1 oz",
+          "fresco": true
+        },
+        {
+          "nombre": "Azúcar",
+          "cantidad": "1 cucharadita",
+          "tipo": "Azúcar de caña"
+        },
+        {
+          "nombre": "Sal",
+          "cantidad": "Para escarchar el vaso",
+          "tipo": "Sal marina"
+        }
+      ],
+      "preparacion": "Moja el borde del vaso con limón y escarcha con sal. En una coctelera, mezcla el tequila, triple sec, jugo de limón y azúcar con hielo. Agita bien y cuela la mezcla en el vaso preparado.",
+      "decoracion": {
+        "elementos": ["Rodaja de limón", "Cubitos de hielo"],
+        "opcional": "Ramita de menta"
+      },
+      "imagen": "https://res-console.cloudinary.com/dhkxgob8i/thumbnails/v1/image/upload/v1704730659/Q29jb2NrdGFpbC9Gcm96ZW4tTWFyZ2FyaXRhLUNvY2t0YWlsXzJfeDNmeGIx/drilldown",
+      "historia": "La Margarita es un cóctel mexicano clásico que se cree que fue creado en la década de 1930. Su combinación de sabores agrios y dulces la hace popular en todo el mundo.",
+      "consejos": [
+        "Utiliza tequila de alta calidad para mejorar el sabor.",
+        "Ajusta la cantidad de azúcar según tu preferencia de dulzura.",
+        "Sirve en un vaso de margarita para una presentación auténtica."
+      ],
+      "creacion": {
+        "anio": 1930,
+        "creador": "Desconocido"
+      },
+      "graduacion_alcoholica": "Moderada",
+      "dificultad_preparacion": "Intermedia",
+      "popularidad": "Alta",
+      "pais_origen": "México",
+      "variaciones_recomendadas": [
+        "Margarita de fresa",
+        "Margarita de mango"
+      ]
+    },
+    {
+      "nombre": "Piña Colada",
+      "categoria": "Tropical",
+      "ingredientes": [
+        {
+          "nombre": "Ron",
+          "cantidad": "2 oz",
+          "tipo": "Blanco"
+        },
+        {
+          "nombre": "Crema de coco",
+          "cantidad": "2 oz"
+        },
+        {
+          "nombre": "Jugo de piña",
+          "cantidad": "3 oz",
+          "fresco": true
+        },
+        {
+          "nombre": "Azúcar",
+          "cantidad": "1 cucharadita",
+          "tipo": "Azúcar de caña"
+        },
+        {
+          "nombre": "Hielo",
+          "cantidad": "Al gusto"
+        }
+      ],
+      "preparacion": "Mezcla todos los ingredientes en una licuadora con hielo. Licúa hasta obtener una consistencia suave. Sirve en un vaso decorado con una rodaja de piña.",
+      "decoracion": {
+        "elementos": ["Rodaja de piña", "Sombrilla de cóctel"],
+        "opcional": "Coco rallado en el borde del vaso"
+      },
+      "imagen": "https://res-console.cloudinary.com/dhkxgob8i/thumbnails/v1/image/upload/v1704730681/Q29jb2NrdGFpbC9Gcm96ZW4tUGluYS1Db2xhZGEtZmVhdF9uZHBjaWg=/drilldown",
+      "historia": "La Piña Colada es un cóctel caribeño refrescante que se popularizó en la década de 1950. Su sabor tropical la convierte en una elección perfecta para relajarse en la playa.",
+      "consejos": [
+        "Usa piña fresca para un sabor más auténtico.",
+        "Ajusta la cantidad de azúcar según tu preferencia.",
+        "Decora con una sombrilla para un toque festivo."
+      ],
+      "creacion": {
+        "anio": 1954,
+        "creador": "Desconocido"
+      },
+      "graduacion_alcoholica": "Baja",
+      "dificultad_preparacion": "Fácil",
+      "popularidad": "Media",
+      "pais_origen": "Puerto Rico",
+      "variaciones_recomendadas": [
+        "Piña Colada con fresa",
+        "Piña Colada con mango"
+      ]
+    },
+    {
+        "nombre": "Negroni",
+        "categoria": "Aperitivo",
+        "ingredientes": [
+          {
+            "nombre": "Ginebra",
+            "cantidad": "1 oz"
+          },
+          {
+            "nombre": "Vermú rojo",
+            "cantidad": "1 oz"
+          },
+          {
+            "nombre": "Campari",
+            "cantidad": "1 oz"
+          },
+          {
+            "nombre": "Rodaja de naranja",
+            "cantidad": "Para decorar"
+          }
+        ],
+        "preparacion": "Revuelve todos los ingredientes en un vaso con hielo. Decora con una rodaja de naranja.",
+        "imagen": "https://res-console.cloudinary.com/dhkxgob8i/thumbnails/v1/image/upload/v1704730703/Q29jb2NrdGFpbC9OZWdyb25pX1JURV8xMF8xX3ZwenpwbA==/drilldown",
+        "historia": "El Negroni es un cóctel italiano clásico que se remonta a principios del siglo XX. Su sabor amargo y equilibrado lo convierte en un favorito entre los amantes de los aperitivos.",
+        "consejos": [
+          "Ajusta la cantidad de vermú y Campari según tu preferencia de amargor.",
+          "Sirve en un vaso old-fashioned para una presentación tradicional."
+        ],
+        "graduacion_alcoholica": "Moderada",
+        "dificultad_preparacion": "Intermedia",
+        "popularidad": "Media",
+        "pais_origen": "Italia",
+        "variaciones_recomendadas": [
+          "Negroni Sbagliato",
+          "Negroni Blanco"
+        ]
+      },
+      {
+        "nombre": "Martini",
+        "categoria": "Clásico",
+        "ingredientes": [
+          {
+            "nombre": "Ginebra",
+            "cantidad": "2 oz"
+          },
+          {
+            "nombre": "Vermú seco",
+            "cantidad": "1/2 oz"
+          },
+          {
+            "nombre": "Aceituna",
+            "cantidad": "Para decorar"
+          }
+        ],
+        "preparacion": "Revuelve la ginebra y el vermú en un vaso mezclador con hielo. Cuela la mezcla en una copa de martini. Decora con una aceituna.",
+        "imagen": "https://res-console.cloudinary.com/dhkxgob8i/thumbnails/v1/image/upload/v1704730722/Q29jb2NrdGFpbC9EU0NfMDk2OC0yXzFfa2NpZXBr/drilldown",
+        "historia": "El Martini es un icónico cóctel estadounidense conocido por su elegancia. Aunque hay muchas variaciones, la versión clásica se compone de ginebra y vermú.",
+        "consejos": [
+          "Ajusta la proporción de ginebra y vermú según tu preferencia de sequedad.",
+          "Utiliza un twist de limón como alternativa a la aceituna para variar el sabor."
+        ],
+        "graduacion_alcoholica": "Fuerte",
+        "dificultad_preparacion": "Intermedia",
+        "popularidad": "Alta",
+        "pais_origen": "Estados Unidos",
+        "variaciones_recomendadas": [
+          "Martini sucio",
+          "Martini de manzana"
+        ]
+      },
+      {
+        "nombre": "Espresso Martini",
+        "categoria": "Energizante",
+        "ingredientes": [
+          {
+            "nombre": "Vodka",
+            "cantidad": "1 oz"
+          },
+          {
+            "nombre": "Licor de café",
+            "cantidad": "1 oz"
+          },
+          {
+            "nombre": "Espresso frío",
+            "cantidad": "1 oz"
+          },
+          {
+            "nombre": "Jarabe de azúcar",
+            "cantidad": "1/2 oz"
+          }
+        ],
+        "preparacion": "En una coctelera, mezcla todos los ingredientes con hielo. Agita vigorosamente y cuela la mezcla en una copa de martini. No requiere decoración adicional.",
+        "imagen": "https://res-console.cloudinary.com/dhkxgob8i/thumbnails/v1/image/upload/v1704731492/Q29jb2NrdGFpbC9tYXJ0aW5pX2VzcHJlc29fMV9veG1oZTI=/drilldown",
+        "historia": "El Espresso Martini es una fusión de café y cóctel. Creado en la década de 1980, es una opción ideal para los amantes del café que buscan un impulso adicional.",
+        "consejos": [
+          "Prepara el espresso con granos de alta calidad para un mejor sabor.",
+          "Ajusta la cantidad de jarabe de azúcar según tu preferencia de dulzura."
+        ],
+        "graduacion_alcoholica": "Fuerte",
+        "dificultad_preparacion": "Intermedia",
+        "popularidad": "Media",
+        "pais_origen": "Reino Unido",
+        "variaciones_recomendadas": [
+          "Espresso Martini con vainilla",
+          "Espresso Martini con avellana"
+        ]
+      },
+      {
+        "nombre": "Daiquiri",
+        "categoria": "Clásico",
+        "ingredientes": [
+          {
+            "nombre": "Ron blanco",
+            "cantidad": "2 oz"
+          },
+          {
+            "nombre": "Jugo de limón",
+            "cantidad": "1 oz",
+            "fresco": true
+          },
+          {
+            "nombre": "Jarabe de azúcar",
+            "cantidad": "1/2 oz"
+          }
+        ],
+        "preparacion": "Mezcla los ingredientes con hielo en una coctelera y cuela en una copa. Decora con una rodaja de limón.",
+        "imagen": "https://res-console.cloudinary.com/dhkxgob8i/thumbnails/v1/image/upload/v1704731634/Q29jb2NrdGFpbC9kYWlxdWlyaV8xX3pjY2oyag==/drilldown",
+        "historia": "El Daiquiri es un cóctel cubano clásico, conocido por su simplicidad y refrescancia. Se cree que fue creado a principios del siglo XX.",
+        "consejos": [
+          "Utiliza ron de buena calidad para un sabor óptimo.",
+          "Ajusta la cantidad de jarabe de azúcar según tu preferencia de dulzura."
+        ],
+        "graduacion_alcoholica": "Moderada",
+        "dificultad_preparacion": "Fácil",
+        "popularidad": "Alta",
+        "pais_origen": "Cuba",
+        "variaciones_recomendadas": [
+          "Daiquiri de fresa",
+          "Daiquiri de mango"
+        ]
+      },
+      {
+        "nombre": "Old Fashioned",
+        "categoria": "Aperitivo",
+        "ingredientes": [
+          {
+            "nombre": "Bourbon",
+            "cantidad": "2 oz"
+          },
+          {
+            "nombre": "Azúcar",
+            "cantidad": "1 cucharadita"
+          },
+          {
+            "nombre": "Angostura bitters",
+            "cantidad": "2-3 gotas"
+          },
+          {
+            "nombre": "Twist de naranja",
+            "cantidad": "Para decorar"
+          }
+        ],
+        "preparacion": "Disuelve el azúcar con un poco de agua, añade los demás ingredientes y revuelve con hielo. Sirve en un vaso old-fashioned.",
+        "imagen": "https://res-console.cloudinary.com/dhkxgob8i/thumbnails/v1/image/upload/v1704730738/Q29jb2NrdGFpbC9vbGQtZmFzaGlvbmVkXzFfajJ2cnRk/drilldown",
+        "historia": "El Old Fashioned es uno de los cócteles más antiguos y esenciales, con raíces que se remontan al siglo XIX.",
+        "consejos": [
+          "Utiliza bourbon de calidad para resaltar los sabores.",
+          "Exprime el twist de naranja sobre el cóctel para liberar sus aceites esenciales."
+        ],
+        "graduacion_alcoholica": "Fuerte",
+        "dificultad_preparacion": "Intermedia",
+        "popularidad": "Alta",
+        "pais_origen": "Estados Unidos",
+        "variaciones_recomendadas": [
+          "Old Fashioned con mezcal",
+          "Old Fashioned de manzana"
+        ]
+      },
+      {
+        "nombre": "Gin Tonic",
+        "categoria": "Refrescante",
+        "ingredientes": [
+          {
+            "nombre": "Ginebra",
+            "cantidad": "2 oz"
+          },
+          {
+            "nombre": "Agua tónica",
+            "cantidad": "Top up"
+          },
+          {
+            "nombre": "Rodaja de limón",
+            "cantidad": "Para decorar"
+          }
+        ],
+        "preparacion": "Sirve la ginebra en un vaso con hielo, completa con agua tónica y decora con una rodaja de limón.",
+        "imagen": "https://res-console.cloudinary.com/dhkxgob8i/thumbnails/v1/image/upload/v1704731758/Q29jb2NrdGFpbC9naW5fdG9uaWNfcWl0ZzVw/drilldown",
+        "historia": "El Gin Tonic es un clásico que ha experimentado un renacimiento. Su simplicidad resalta los sabores de la ginebra.",
+        "consejos": [
+          "Elige una ginebra con botánicos que complementen la tónica.",
+          "Experimenta con diferentes guarniciones, como pepino o bayas de enebro."
+        ],
+        "graduacion_alcoholica": "Moderada",
+        "dificultad_preparacion": "Fácil",
+        "popularidad": "Alta",
+        "pais_origen": "Reino Unido",
+        "variaciones_recomendadas": [
+          "Gin Tonic con pepino",
+          "Gin Tonic con frutos rojos"
+        ]
+      },
+      {
+        "nombre": "Whiskey Sour",
+        "categoria": "Clásico",
+        "ingredientes": [
+          {
+            "nombre": "Bourbon",
+            "cantidad": "2 oz"
+          },
+          {
+            "nombre": "Jugo de limón",
+            "cantidad": "3/4 oz",
+            "fresco": true
+          },
+          {
+            "nombre": "Clara de huevo",
+            "cantidad": ""
+          },
+          {
+            "nombre": "Azúcar",
+            "cantidad": "1/2 oz"
+          }
+        ],
+        "preparacion": "Mezcla los ingredientes en una coctelera sin hielo, agita, luego agrega hielo y agita nuevamente. Cuela en una copa.",
+        "imagen": "https://res-console.cloudinary.com/dhkxgob8i/thumbnails/v1/image/upload/v1704730738/Q29jb2NrdGFpbC9vbGQtZmFzaGlvbmVkXzFfajJ2cnRk/drilldown",
+        "historia": "El Whiskey Sour es un cóctel que equilibra el dulce y ácido, y su popularidad ha perdurado a lo largo de los años.",
+        "consejos": [
+          "Utiliza un bourbon suave para un perfil de sabor más equilibrado.",
+          "La clara de huevo agrega una textura aterciopelada; agita bien para espumarla."
+        ],
+        "graduacion_alcoholica": "Moderada",
+        "dificultad_preparacion": "Intermedia",
+        "popularidad": "Alta",
+        "pais_origen": "Estados Unidos",
+        "variaciones_recomendadas": [
+          "Whiskey Sour con clara de huevo",
+          "Whiskey Sour de frutas"
+        ]
+      },
+      {
+        "nombre": "Mai Tai",
+        "categoria": "Tropical",
+        "ingredientes": [
+          {
+            "nombre": "Ron oscuro",
+            "cantidad": "1 oz"
+          },
+          {
+            "nombre": "Ron blanco",
+            "cantidad": "1 oz"
+          },
+          {
+            "nombre": "Triple sec",
+            "cantidad": "1/2 oz"
+          },
+          {
+            "nombre": "Almendra",
+            "cantidad": "1/2 oz",
+            "tipo": "Almendra orgeat"
+          },
+          {
+            "nombre": "Jugo de limón",
+            "cantidad": "3/4 oz",
+            "fresco": true
+          }
+        ],
+        "preparacion": "Mezcla los ingredientes con hielo en una coctelera y sirve en un vaso tiki. Decora con una rodaja de piña.",
+        "imagen": "https://res-console.cloudinary.com/dhkxgob8i/thumbnails/v1/image/upload/v1704730825/Q29jb2NrdGFpbC9tYWktdGFpLWRyaW5rX3kza2EyZA==/drilldown",
+        "historia": "El Mai Tai es un cóctel tiki que se originó en la década de 1940. Su combinación única de sabores tropicales lo hace inconfundible.",
+        "consejos": [
+          "Utiliza rones de calidad para una mezcla de sabores más rica.",
+          "Decora con una sombrilla y una rodaja de piña para un toque tropical."
+        ],
+        "graduacion_alcoholica": "Fuerte",
+        "dificultad_preparacion": "Intermedia",
+        "popularidad": "Media",
+        "pais_origen": "Estados Unidos",
+        "variaciones_recomendadas": [
+          "Mai Tai con frutas tropicales",
+          "Mai Tai ahumado"
+        ]
+      },
+      {
+        "nombre": "Caipirinha",
+        "categoria": "Refrescante",
+        "ingredientes": [
+          {
+            "nombre": "Cachaça",
+            "cantidad": "2 oz"
+          },
+          {
+            "nombre": "Azúcar",
+            "cantidad": "2 cucharaditas"
+          },
+          {
+            "nombre": "Limones en trozos",
+            "cantidad": "4-6 trozos"
+          }
+        ],
+        "preparacion": "Machaca el limón con azúcar en un vaso, agrega hielo y vierte la cachaça. Remueve bien.",
+        "imagen": "https://res-console.cloudinary.com/dhkxgob8i/thumbnails/v1/image/upload/v1704730855/Q29jb2NrdGFpbC9jYWlwaXJpbmhhLXJlY2lwZV9jenducDQ=/drilldown",
+        "historia": "La Caipirinha es el cóctel nacional de Brasil, reflejando la rica tradición de la cachaça en el país.",
+        "consejos": [
+          "Ajusta la cantidad de azúcar según tu preferencia de dulzura.",
+          "Utiliza limones frescos para obtener el mejor sabor cítrico."
+        ],
+        "graduacion_alcoholica": "Moderada",
+        "dificultad_preparacion": "Fácil",
+        "popularidad": "Alta",
+        "pais_origen": "Brasil",
+        "variaciones_recomendadas": [
+          "Caipirinha de maracuyá",
+          "Caipirinha de fresa"
+        ]
+      },
+      {
+        "nombre": "Bloody Mary",
+        "categoria": "Desayuno/Brunch",
+        "ingredientes": [
+          {
+            "nombre": "Vodka",
+            "cantidad": "1.5 oz"
+          },
+          {
+            "nombre": "Jugo de tomate",
+            "cantidad": "3 oz"
+          },
+          {
+            "nombre": "Salsa inglesa",
+            "cantidad": "3 gotas"
+          },
+          {
+            "nombre": "Salsa picante",
+            "cantidad": "Al gusto"
+          },
+          {
+            "nombre": "Sal de apio",
+            "cantidad": "Para decorar el borde"
+          }
+        ],
+        "preparacion": "Mezcla todos los ingredientes en un vaso alto con hielo. Decora con apio y una rodaja de limón.",
+        "imagen": "https://res-console.cloudinary.com/dhkxgob8i/thumbnails/v1/image/upload/v1704731899/Q29jb2NrdGFpbC9CbG9vZHktTWFyeV8xX3JjeHFkYw==/drilldown",
+        "historia": "El Bloody Mary es conocido como el cóctel de brunch por excelencia, con una mezcla única de sabores salados y picantes.",
+        "consejos": [
+          "Ajusta la cantidad de salsa picante según tu preferencia de picante.",
+          "Decora creativamente con acompañamientos como encurtidos y aceitunas."
+        ],
+        "graduacion_alcoholica": "Moderada",
+        "dificultad_preparacion": "Fácil",
+        "popularidad": "Alta",
+        "pais_origen": "Estados Unidos",
+        "variaciones_recomendadas": [
+          "Bloody Maria (con tequila)",
+          "Bloody Caesar (con vodka y jugo de almeja)"
+        ]
+      }
+  ]
+  

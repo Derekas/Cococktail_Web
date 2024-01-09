@@ -1,0 +1,119 @@
+---
+import type { GetStaticPaths } from "astro";
+import cocktails from "../utils/cocktails.json";
+import Layout from "../layouts/Layout.astro";
+
+export const prerender = false;
+
+const { name } = Astro.params;
+let data = null;
+
+if (!name) {
+  Astro.redirect("/");
+} else {
+  const foundCocktail = cocktails.find((cocktail) =>
+    cocktail.nombre.includes(name)
+  );
+
+  if (!foundCocktail) {
+    // Manejar el caso en el que no se encuentra ningún cóctel
+    console.error(`No se encontró ningún cóctel con el nombre '${name}'.`);
+    // Puedes redirigir a otra página o mostrar un mensaje apropiado aquí
+  } else {
+    // Verificación de tipos para asegurarse de que foundCocktail tiene la propiedad 'data'
+    if ("ingredientes" in foundCocktail) {
+      data = foundCocktail;
+    } else {
+      console.error(
+        `El cóctel encontrado no tiene la propiedad 'ingredientes'.`
+      );
+      // Puedes manejar este caso de manera adecuada según tus necesidades
+    }
+  }
+}
+
+export { data };
+---
+
+<Layout title=`${data?.nombre}`>
+  <main
+    class="md:flex w-[80em] h-auto border bg-gray-900 justify-around rounded-md m-auto my-5"
+  >
+    {
+      data && (
+        <>
+          <section class="align-middle items-center ">
+            <header>
+              <h1 class="text-6xl mb-7 m-auto text-center">{data.nombre}</h1>
+            </header>
+
+            <img class="h-[30em] m-auto" src={data.imagen} alt="" />
+            <div class="w-full items-center align-middle m-auto border-t my-4">
+              
+              <div class="flex">
+                
+                <div class="ml-5 my-2 mr-20">
+                <h2 class="my-2">Ingredientes:</h2>
+                  {data.ingredientes.map((ingrediente) => (
+                    <p class="my-1 text-xs">
+                      {ingrediente.nombre} - {ingrediente.cantidad} -{" "}
+                      {ingrediente.tipo}
+                    </p>
+                  ))}
+                </div>
+
+                <div>
+                    <h2 class="my-2">Decoraciones:</h2>
+                  {data.decoracion?.elementos.map((elementos) => (
+                    <p class="my-1 text-xs">{elementos}</p>
+                  ))}
+                  <p class="text-xs">{data.decoracion?.opcional}</p>
+                  
+                </div>
+              </div>
+            </div>
+            <p class="ml-5 my-2 text-sm mt-10">Historia: {data.historia}</p>
+            {/* Agrega más elementos según tus necesidades */}
+          </section>
+          <section class="flex flex-col justify-around rounded-md md:ml-20">
+            <main class="h-[40em] ">
+              <section class="mb-10">
+                <h1 class="text-3xl mb-4 font-medium">Preparación</h1>
+                <p>{data.preparacion}</p>
+              </section>
+
+              <section class="mb-10">
+                <h1 class="text-xl mb-2">Consejos</h1>
+                {data.consejos.map((consejo) => (
+                  <li class="text-sm">{consejo}</li>
+                ))}
+              </section>
+
+              <section>
+                <h1 class="text-xl mb-2">Variaciones</h1>
+                <p>
+                  {data.variaciones_recomendadas.map((variacion) => (
+                    <a href={variacion}>
+                      <li class="text-sm">{variacion}</li>
+                    </a>
+                  ))}
+                </p>
+              </section>
+            </main>
+          </section>
+        </>
+      )
+    }
+  </main>
+
+  <style>
+    main {
+      padding: 1rem;
+      max-width: calc(100% - 2rem);
+      color: white;
+      line-height: 1.6;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</Layout>

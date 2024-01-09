@@ -104,7 +104,7 @@ const Nav = () => {
                       href="#"
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
-                      Clásico
+                      Clásicas
                     </a>
                   </li>
                   <li>
@@ -112,7 +112,7 @@ const Nav = () => {
                       href="#"
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
-                      Tropical
+                      Tropicales
                     </a>
                   </li>
                   <li>
@@ -128,7 +128,7 @@ const Nav = () => {
                       href="#"
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
-                      Refrescante
+                      Refrescantes
                     </a>
                   </li>
                   <li>
@@ -144,7 +144,7 @@ const Nav = () => {
                       href="#"
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
-                      Energizante
+                      Energizantes
                     </a>
                   </li>
                 </ul>
